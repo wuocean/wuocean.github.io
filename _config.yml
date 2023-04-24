@@ -1,0 +1,5 @@
+deploy:
+  type: git
+  repo: <repository url> #https://github.com/wuocean/wuocean.github.io.git
+  branch: [master (others)]
+  message: [Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }})]
